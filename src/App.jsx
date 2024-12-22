@@ -1,15 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import Header from "./Components/Header"
+import About from "./Pages/About"
+import Accueil from "./Pages/Accueil"
+import Contact from "./Pages/Contact"
+import Footer from "./Pages/Footer"
+import Projects from "./Pages/Projects"
+import Skills from "./Pages/Skills"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>HELLO, CMC !</h1>
-    </>
+    <div className="min-h-screen bgCMC">
+    <Header/>
+    <br/>
+      <main>
+        <Accueil/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </main>
+    </div>
   )
 }
 

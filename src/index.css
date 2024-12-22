@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* PERSONNALISE */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bgCMC{
+    background: linear-gradient(to bottom, #000000, #011109); 
+    /* background-color: #011109; */
+}
+.bgFooter{
+    background: linear-gradient(to right, #000000, #3c312b); 
+}
+.text-yellow-600 {
+    --tw-text-opacity: 1;
+    color: #fdedb1 /* #ca8a04 */;
+}
+
+
+.bg-yellow-600 {
+    --tw-bg-opacity: 1;
+    background-color: #fdedb1;
+}
+.modifPhoto{
+    width: 480px;
+    height: 600px;
+    border: 0px solid #fdedb1 ;
+    border-radius: 90% 0% 90% 90% ;
+    box-shadow: rgba(50, 87, 93, 0.25) 0px 50px 100px -20px, rgba(156, 156, 156, 0.441) 0px 30px 60px -30px;
+}
