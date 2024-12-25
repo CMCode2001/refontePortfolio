@@ -3,133 +3,131 @@ import * as React from "react";
 
 const projects = [
   {
-    img: "public/img/P0.png",
+    img: "/img/P0.png",
     alt: "Project 0",
   },
   {
-    img: "public/img/P1.jpg",
+    img: "/img/P1.jpg",
     alt: "Project 1",
   },
   {
-    img: "public/img/P2.jpg",
+    img: "/img/P2.jpg",
     alt: "Project 2",
   },
   {
-    img: "public/img/P3.jpg",
+    img: "/img/P3.jpg",
     alt: "Project 3",
   },
   {
-    img: "public/img/P4.jpg",
+    img: "/img/P4.jpg",
     alt: "Project 4",
   },
   {
-    img: "public/img/P5.jpg",
+    img: "/img/P5.jpg",
     alt: "Project 5",
   },
   {
-    img: "public/img/P6.jpg",
+    img: "/img/P6.jpg",
     alt: "Project 6",
   },
   {
-    img: "public/img/P7.png",
+    img: "/img/P7.png",
     alt: "Project 7",
   },
   {
-    img: "public/img/P8.png",
+    img: "/img/P8.png",
     alt: "Project 8",
   },
   {
-    img: "public/img/P9.jpg",
+    img: "/img/P9.jpg",
     alt: "Project 9",
   },
   {
-    img: "public/img/P10.jpg",
+    img: "/img/P10.jpg",
     alt: "Project 10",
   },
   {
-    img: "public/img/P11.jpg",
+    img: "/img/P11.jpg",
     alt: "Project 11",
   },
   {
-    img: "public/img/P12.jpg",
+    img: "/img/P12.jpg",
     alt: "Project 12",
   },
   {
-    img: "public/img/P14.png",
+    img: "/img/P14.png",
     alt: "Project 14",
   },
   {
-    img: "public/img/P15.png",
+    img: "/img/P15.png",
     alt: "Project 15",
   },
   {
-    img: "public/img/P16.jpg",
+    img: "/img/P16.jpg",
     alt: "Project 16",
   },
   {
-    img: "public/img/P17.JPG",
+    img: "/img/P17.JPG",
     alt: "Project 17",
   },
   {
-    img: "public/img/P18.JPG",
+    img: "/img/P18.JPG",
     alt: "Project 18",
   },
   {
-    img: "public/img/P19.png",
+    img: "/img/P19.png",
     alt: "Project 19",
   },
   {
-    img: "public/img/P20.jpg",
+    img: "/img/P20.jpg",
     alt: "Project 20",
   },
-  // ------------- LOGO --------------------- //
   {
-    img: "public/img/logo/L1.png",
+    img: "/img/logo/L1.png",
     alt: "Logo 1",
   },
   {
-    img: "public/img/logo/L3.png",
+    img: "/img/logo/L3.png",
     alt: "Logo 3",
   },
   {
-    img: "public/img/logo/L4.png",
+    img: "/img/logo/L4.png",
     alt: "Logo 4",
   },
   {
-    img: "public/img/logo/L5.jpg",
+    img: "/img/logo/L5.jpg",
     alt: "Logo 5",
   },
   {
-    img: "public/img/logo/L6.jpg",
+    img: "/img/logo/L6.jpg",
     alt: "Logo 6",
   },
   {
-    img: "public/img/logo/L11.png",
+    img: "/img/logo/L11.png",
     alt: "Logo 11",
   },
   {
-    img: "public/img/logo/L2.png",
+    img: "/img/logo/L2.png",
     alt: "Logo 2",
   },
   {
-    img: "public/img/logo/L7.png",
+    img: "/img/logo/L7.png",
     alt: "Logo 7",
   },
   {
-    img: "public/img/logo/L8.png",
+    img: "/img/logo/L8.png",
     alt: "Logo 8",
   },
   {
-    img: "public/img/logo/L9.png",
+    img: "/img/logo/L9.png",
     alt: "Logo 9",
   },
   {
-    img: "public/img/logo/L10.png",
+    img: "/img/logo/L10.png",
     alt: "Logo 10",
   },
- 
-  
 ];
+
 
 export default function BlogDesign() {
   return (
