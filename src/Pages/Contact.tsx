@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from "react";
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bgCMC">
+    <section id="contact" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <div style={{opacity: '1', transform: 'none'}}>
         <div className="pb-6 flex flex-col mt-0 max-lg:mt-0 items-center justify-center text-4xl -rotate-2">
@@ -28,16 +28,30 @@ const Contact = () => {
               <Mail className="w-6 h-6 text-yellow-600" />
               <div>
                 <h4 className="font-bold text-white">Email</h4>
-                <p className="text-white">cheikh.mc2024@gmail.com</p>
+                <p className="text-white">
+                  <a href="mailto:cheikh.mc2024@gmail.com">
+                    cheikh.mc2024@gmail.com
+                  </a>
+                </p>
               </div>
-            </div> |||||||||||||||||||
+            </div> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div className="flex items-start space-x-4">
               <Phone className="w-6 h-6 text-yellow-600" />
               <div>
                 <h4 className="font-bold text-white">Téléphone</h4>
-                <p className="text-white">+221 77 166 08 23 / +221 76 424 39 26 </p>
+                <p className="text-white">
+                    <a href="tel:+221771660823" className="hover:none">
+                      +221 77 166 08 23
+                    </a>{" "}
+                    /{" "}
+                    <a href="tel:+221764243926" className="hover:none">
+                      +221 76 424 39 26
+                    </a>
+                </p>
               </div>
-            </div> |||||||||||||||||||
+            </div> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div className="flex items-start space-x-4">
               <MapPin className="w-6 h-6 text-yellow-600" />
               <div>

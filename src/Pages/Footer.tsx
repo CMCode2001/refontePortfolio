@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from "react";
 import { Github, Linkedin, Mail } from 'lucide-react';
-import LogoCMC from '../Assets/CMC-logo.png'
+import LogoCMC from '../Assets/CMC-logo.png';
 
 const Footer = () => {
   return (

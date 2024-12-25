@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from "react";
 
 import { 
   Code2, 
@@ -9,8 +9,8 @@ import {
   FileJson,
   Wind
 } from 'lucide-react';
-import { FaJava, FaReact } from 'react-icons/fa';
-import { SiAdobeillustrator, SiAngular, SiSpring, SiSpringboot } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { SiAdobeillustrator, SiAngular, SiSpring } from 'react-icons/si';
 
 export const skillsData = [
   {
@@ -30,15 +30,15 @@ export const skillsData = [
     icon: <Palette className="w-12 h-12" />,
   },
   {
-    name: 'Adobe Illustrator',
+    name: 'Ai',
     icon: <SiAdobeillustrator className="w-12 h-12" />,
   },
   {
-    name: 'Java Spring-boot',
+    name: 'Spring-boot',
     icon: < SiSpring className="w-12 h-12" />,
   },
   {
-    name: 'Mysql, Mariadb',
+    name: 'Mysql-Mariadb',
     icon: <Database className="w-12 h-12" />,
   },
   {

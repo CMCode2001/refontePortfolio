@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 
@@ -28,7 +28,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projets" className="py-10">
+    <section id="projets" className="bg-black py-10">
       <div className="container mx-auto px-4">
       <div style={{opacity: '1', transform: 'none'}}>
         <div className="pb-6 flex flex-col mt-0 max-lg:mt-0 items-center justify-center text-4xl -rotate-2">
@@ -38,9 +38,8 @@ const Projects = () => {
             <div className="w-40 h-2 bg-yellow-600 rounded-full"></div>
             <div className="w-40 h-2 bg-indigo-500 rounded-full translate-x-4"></div>
             {/* <p className="text-xl text-gray-100">Découvrez mes dernières réalisations</p> */}
-
         </div>
-    </div>
+      </div>
        
 
         <div className="grid md:grid-cols-3 gap-8">
