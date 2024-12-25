@@ -3,128 +3,128 @@ import * as React from "react";
 
 const projects = [
   {
-    img: "src/Assets/img/P0.png",
+    img: "public/img/P0.png",
     alt: "Project 0",
   },
   {
-    img: "src/Assets/img/P1.jpg",
+    img: "public/img/P1.jpg",
     alt: "Project 1",
   },
   {
-    img: "src/Assets/img/P2.jpg",
+    img: "public/img/P2.jpg",
     alt: "Project 2",
   },
   {
-    img: "src/Assets/img/P3.jpg",
+    img: "public/img/P3.jpg",
     alt: "Project 3",
   },
   {
-    img: "src/Assets/img/P4.jpg",
+    img: "public/img/P4.jpg",
     alt: "Project 4",
   },
   {
-    img: "src/Assets/img/P5.jpg",
+    img: "public/img/P5.jpg",
     alt: "Project 5",
   },
   {
-    img: "src/Assets/img/P6.jpg",
+    img: "public/img/P6.jpg",
     alt: "Project 6",
   },
   {
-    img: "src/Assets/img/P7.png",
+    img: "public/img/P7.png",
     alt: "Project 7",
   },
   {
-    img: "src/Assets/img/P8.png",
+    img: "public/img/P8.png",
     alt: "Project 8",
   },
   {
-    img: "src/Assets/img/P9.jpg",
+    img: "public/img/P9.jpg",
     alt: "Project 9",
   },
   {
-    img: "src/Assets/img/P10.jpg",
+    img: "public/img/P10.jpg",
     alt: "Project 10",
   },
   {
-    img: "src/Assets/img/P11.jpg",
+    img: "public/img/P11.jpg",
     alt: "Project 11",
   },
   {
-    img: "src/Assets/img/P12.jpg",
+    img: "public/img/P12.jpg",
     alt: "Project 12",
   },
   {
-    img: "src/Assets/img/P14.png",
+    img: "public/img/P14.png",
     alt: "Project 14",
   },
   {
-    img: "src/Assets/img/P15.png",
+    img: "public/img/P15.png",
     alt: "Project 15",
   },
   {
-    img: "src/Assets/img/P16.jpg",
+    img: "public/img/P16.jpg",
     alt: "Project 16",
   },
   {
-    img: "src/Assets/img/P17.JPG",
+    img: "public/img/P17.JPG",
     alt: "Project 17",
   },
   {
-    img: "src/Assets/img/P18.JPG",
+    img: "public/img/P18.JPG",
     alt: "Project 18",
   },
   {
-    img: "src/Assets/img/P19.png",
+    img: "public/img/P19.png",
     alt: "Project 19",
   },
   {
-    img: "src/Assets/img/P20.jpg",
+    img: "public/img/P20.jpg",
     alt: "Project 20",
   },
   // ------------- LOGO --------------------- //
   {
-    img: "src/Assets/img/logo/L1.png",
+    img: "public/img/logo/L1.png",
     alt: "Logo 1",
   },
   {
-    img: "src/Assets/img/logo/L3.png",
+    img: "public/img/logo/L3.png",
     alt: "Logo 3",
   },
   {
-    img: "src/Assets/img/logo/L4.png",
+    img: "public/img/logo/L4.png",
     alt: "Logo 4",
   },
   {
-    img: "src/Assets/img/logo/L5.jpg",
+    img: "public/img/logo/L5.jpg",
     alt: "Logo 5",
   },
   {
-    img: "src/Assets/img/logo/L6.jpg",
+    img: "public/img/logo/L6.jpg",
     alt: "Logo 6",
   },
   {
-    img: "src/Assets/img/logo/L11.png",
+    img: "public/img/logo/L11.png",
     alt: "Logo 11",
   },
   {
-    img: "src/Assets/img/logo/L2.png",
+    img: "public/img/logo/L2.png",
     alt: "Logo 2",
   },
   {
-    img: "src/Assets/img/logo/L7.png",
+    img: "public/img/logo/L7.png",
     alt: "Logo 7",
   },
   {
-    img: "src/Assets/img/logo/L8.png",
+    img: "public/img/logo/L8.png",
     alt: "Logo 8",
   },
   {
-    img: "src/Assets/img/logo/L9.png",
+    img: "public/img/logo/L9.png",
     alt: "Logo 9",
   },
   {
-    img: "src/Assets/img/logo/L10.png",
+    img: "public/img/logo/L10.png",
     alt: "Logo 10",
   },
  
