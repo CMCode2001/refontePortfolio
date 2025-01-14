@@ -4,7 +4,7 @@ import * as React from "react";
 const projects = [
   {
     img: "/img/P0.png",
-    alt: "Project 0",
+    alt: "Project 0", 
   },
   {
     img: "/img/P1.jpg",

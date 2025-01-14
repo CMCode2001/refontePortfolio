@@ -33,7 +33,7 @@ const Accueil = () => {
               Je crée des expériences web innovantes et performantes
             </p>
             <motion.a
-              href="/src/Assets/files/Mon CV (cmc).pdf"
+              href="/public/files/Mon CV (cmc).pdf"
               className="inline-flex items-center px-6 py-3 bg-yellow-600 text-black font-bold rounded-3xl transition-colors"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
