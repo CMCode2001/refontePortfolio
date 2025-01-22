@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Site Web L2i",
       description:
         "Conception et Développement du site  L2i: Licence en Ingenierie Informatique , mettant en avant les cours en ligne,un espace de forums, chat en direct, et un espace professeur pour administrer les classes: gestion des notes, programmation de devoir, ajout des cours...",
-      video: "/movie/site-l2i.mp4",
+      video: "/img/site-l2i.mp4",
       github: "https://github.com/CMCode2001/Portail-Web-L2i",
       demo: "https://demo.com",
     },
@@ -17,7 +17,7 @@ const Projects = () => {
       title: "Portail Web UASZ",
       description:
         "Refonte complète du portail web de l'UASZ avec Angular et Spring Boot pour une meilleure expérience utilisateur et un accès optimisé aux ressources académiques. Toujours en phase de developement...",
-      video: "/movie/Portail Web UASZ.mp4",
+      video: "/img/Portail Web UASZ.mp4",
       github: "https://github.com/CMCode2001/Portail-Web-UASZ-/tree/CMC",
       demo: "https://demo.com",
     },
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Sama Bess",
       description:
         "Une application de gestion événementielle permettant d’organiser et de suivre les événements avec une interface utilisateur intuitive.",
-      video: "/movie/samabess.mp4",
+      video: "/img/samabess.mp4",
       github: "https://github.com/CMCode2001/evens_manager-frontend-CMC/tree/frontend-final",
       demo: "https://demo.com",
     },
