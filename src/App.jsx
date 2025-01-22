@@ -1,4 +1,3 @@
-import Header from "./Components/Header"
 import About from "./Pages/About"
 import Accueil from "./Pages/Accueil"
 import Contact from "./Pages/Contact"
@@ -17,7 +16,8 @@ function App() {
     <div className=" size-full items-center justify-center overflow-hidden  md:shadow-xl">
 
         <div className="min-h-screen bgCMC">  
-        <Header/>
+        {/* <Header/> */}
+        <main>
         <DotPattern
               width={20}
               height={20}
@@ -28,9 +28,6 @@ function App() {
                 "[mask-image:linear-gradient(to_bottom_right,gray,transparent,transparent)] ",
               )}
             />
-           
-        <br/>
-          <main>
             <Accueil/>
             <About/>
             <Skills/>

@@ -1,46 +1,56 @@
 import * as React from "react";
-import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { motion } from "framer-motion";
+import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    
     {
-      title: "E-commerce Platform",
-      description: "Une plateforme e-commerce moderne avec panier et paiement",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80",
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "Site Web L2i",
+      description:
+        "Conception et Développement du site  L2i: Licence en Ingenierie Informatique , mettant en avant les cours en ligne,un espace de forums, chat en direct, et un espace professeur pour administrer les classes: gestion des notes, programmation de devoir, ajout des cours...",
+      video: "/movie/site-l2i.mp4",
+      github: "https://github.com/CMCode2001/Portail-Web-L2i",
+      demo: "https://demo.com",
     },
     {
-      title: "Task Manager",
-      description: "Application de gestion de tâches avec React et Node.js",
-      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80",
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "Portail Web UASZ",
+      description:
+        "Refonte complète du portail web de l'UASZ avec Angular et Spring Boot pour une meilleure expérience utilisateur et un accès optimisé aux ressources académiques. Toujours en phase de developement...",
+      video: "/movie/Portail Web UASZ.mp4",
+      github: "https://github.com/CMCode2001/Portail-Web-UASZ-/tree/CMC",
+      demo: "https://demo.com",
     },
     {
-      title: "Blog Platform",
-      description: "Plateforme de blog avec système de gestion de contenu",
-      image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&q=80",
-      github: "https://github.com",
-      demo: "https://demo.com"
-    }
+      title: "Sama Bess",
+      description:
+        "Une application de gestion événementielle permettant d’organiser et de suivre les événements avec une interface utilisateur intuitive.",
+      video: "/movie/samabess.mp4",
+      github: "https://github.com/CMCode2001/evens_manager-frontend-CMC/tree/frontend-final",
+      demo: "https://demo.com",
+    },
+    // {
+    //   title: "Gestion de couverture des événements de l'UASZ",
+    //   description:
+    //     "Plateforme dédiée à la gestion et à la planification de la couverture médiatique des événements universitaires.",
+    //   video: "/videos/couverture-uasz.mp4",
+    //   github: "https://github.com",
+    //   demo: "https://demo.com",
+    // },
   ];
 
   return (
     <section id="projets" className="bg-black py-10">
       <div className="container mx-auto px-4">
-      <div style={{opacity: '1', transform: 'none'}}>
-        <div className="pb-6 flex flex-col mt-0 max-lg:mt-0 items-center justify-center text-4xl -rotate-2">
-            <div className=" font-bold max-sm:text-2xl text-yellow-600">
-            Projects 🗂️
+        <div style={{ opacity: "1", transform: "none" }}>
+          <div className="pb-6 flex flex-col mt-0 max-lg:mt-0 items-center justify-center text-4xl -rotate-2">
+            <div className="font-bold max-sm:text-2xl text-yellow-600">
+              Projects 🗂️
             </div>
             <div className="w-40 h-2 bg-yellow-600 rounded-full"></div>
             <div className="w-40 h-2 bg-indigo-500 rounded-full translate-x-4"></div>
-            {/* <p className="text-xl text-gray-100">Découvrez mes dernières réalisations</p> */}
+          </div>
         </div>
-      </div>
-       
 
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
@@ -52,11 +62,11 @@ const Projects = () => {
               transition={{ delay: index * 0.2 }}
               className="bg-white rounded-lg overflow-hidden shadow-lg"
             >
-              <img
-                src={project.image}
-                alt={project.title}
+              <video
+                src={project.video}
+                controls
                 className="w-full h-48 object-cover"
-              />
+              ></video>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>

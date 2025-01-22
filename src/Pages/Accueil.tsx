@@ -10,21 +10,21 @@ import { DockStyler } from '@/Components/DockStyler';
 
 const Accueil = () => {
   return (
-    <section id="accueil" className="min-h-screen flex items-center pt-30">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-0 items-center">
+    <section id="accueil" className="min-h-screen flex justify-center">
+      <div className="container">
+        <div className="grid md:grid-cols-2 gap-0 items-center m-2">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className='m-4'
+            className='m-1'
           >
             
             <h1 className="text-white text-3xl lg:text-5xl font-bold pt-0 max-lg:pt-20 max-sm:text-[1.7rem] -rotate-2 ">
               Salut👋🏾,
               <br/>           
                 je suis&nbsp;
-                <span className="underline underline-offset-8 text-yellow-600">Cheikh Mbacké COLY.</span>
+                <span className=" text-yellow-600">Cheikh Mbacké COLY</span>
             </h1>
             <br/>
   
@@ -52,7 +52,7 @@ const Accueil = () => {
             <a href="https://www.linkedin.com/in/cheikh-mback%C3%A9-coly-26047127b/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="text-yellow-600 w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/Cmcode2001" target="_blank" rel="noopener noreferrer">
               <XOutlined className="text-yellow-600 w-5 h-5" />
             </a>
             <a href="mailto:cheikh.mc2024@gmail.com">
