@@ -9,8 +9,9 @@ import {
   FileJson,
   Wind
 } from 'lucide-react';
-import { FaReact } from 'react-icons/fa';
-import { SiAdobeillustrator, SiAngular, SiSpring } from 'react-icons/si';
+import { FaGithubAlt, FaReact } from 'react-icons/fa';
+import { SiAdobeillustrator, SiAngular, SiGithub, SiSpring } from 'react-icons/si';
+import { GithubFilled } from "@ant-design/icons";
 
 export const skillsData = [
   {
@@ -42,8 +43,8 @@ export const skillsData = [
     icon: <Database className="w-12 h-12" />,
   },
   {
-    name: 'Git',
-    icon: <GitBranchPlus className="w-12 h-12" />,
+    name: 'Github',
+    icon: <SiGithub className="w-12 h-12" />,
   },
   // {
   //   name: 'JavaScript',
